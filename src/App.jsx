@@ -4,9 +4,9 @@ import Navbar from "./layout/Navbar";
  import About from "./section/About"; 
  import Projects from "./section/Projects"; 
  import Experience from "./section/Experience";
- import Skills from "./section/Skills"; 
  import Contact from "./section/Contact";
-  import Footer from "./section/Footer";
+ import Footer from "./layout/Footer";
+
  export default function App() {
    return(
    <div className="min-h-screen overflow-x-hidden "> 
@@ -17,6 +17,7 @@ import Navbar from "./layout/Navbar";
     <Projects /> 
     <Experience /> 
     <Contact /> 
+    <Footer /> 
     </main> 
     </div>)
      }            
