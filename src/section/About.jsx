@@ -3,7 +3,7 @@ import { div } from "framer-motion/client"
 const highlights =[
   {
     title:"Front-End",
-    description: "Building accessible, poetic interfaces with React & Tailwind.",
+    description: "Building accessible, discreet interfaces with React & Tailwind.",
   },
    {
     title:"Back-End",

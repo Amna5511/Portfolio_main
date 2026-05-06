@@ -3,7 +3,7 @@ import { ArrowRight, Download,GitBranchIcon, Linkedin ,ChevronDownCircle } from 
 import { AnimatedBorderButton } from '../components/AnimatedBorderButton';
 const skills = [
   "React",
-  "Next.js",
+  "Express",
   "TypeScript",
   "Node.js",
   "MongoDB",
@@ -62,9 +62,9 @@ const Hero = () => {
               </span>
             </h1> 
             <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-              Welcome fellow visitor , I'm Amna , a full-stack Javascript Developer . I work with React,Vanilla Js,Node  and learning new languages . 
-              I mainly focus on creating websites  that corresponds to the users accessibility and vision . 
-              All made with love .
+              Welcome fellow visitor , I'm Amna , a full-stack Javascript Developer.
+              I work with React,Vanilla Js,Node  and I'm eager to learn new languages . 
+              I mainly focus on creating websites  that corresponds to the users accessibility and vision .
             </p>
            </div>
            {/* Call to action section */}
@@ -130,7 +130,7 @@ const Hero = () => {
         <div className="flex animate-marquee">
           {[...skills,...skills].map((skill,idx) => (
             <div key={idx} className="flex-shrink-0 px-8 py-4">
-              <span className="text-xl font-semibold text-muted-foreground/50 hover:text-muted-foreground transition-colors">
+              <span className="text-xl font-semibold text-highlight/80 hover:text-muted-foreground transition-colors">
                 {skill}
               </span>
             </div>

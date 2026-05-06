@@ -6,14 +6,16 @@
 
   --color-card: #1a0f0f;
 
-  --color-primary: #8b1a1a;
+  --color-primary: #9e1212;
   --color-primary-foreground: #ffffff;
 
   --color-secondary: #2a1515;
-  --color-secondary-foreground: #c0392b;
+  --color-secondary-foreground: #ad1a1a;
 
   --color-muted: #2e1a1a;
-  --color-muted-foreground: #9a8080;
+  --color-muted-foreground: #d2c4c4;
+
+  --color-highlight : #df7575;
 
   --color-border: #3a1f1f;
 

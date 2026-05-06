@@ -4,16 +4,15 @@ const experiences = [
     role: "FullStack JS internship ",
     company: "Interface3",
     description:
-      "Course of FullStack Javascript  using VanillaJs , Next.js , React , Typescript , Tailwind , Node.js , WordPress",
-    technologies: ["React", "TypeScript", "Next.js", "WordPress","Tailwind","Node.js"],
+      "Web Developer course",
     current: true,
   },
    {
     period: "2024 — 2025",
-    role: "Reorionation in the work field",
+    role: "Re-orientation in the work field",
     description:
-      "Researching a job field that could correspond to me while doing volunteering ",
-    technologies:[],
+      "Researching a job field that could correspond to me while doing volunteering with kids",
+   
     current: false,
   },
    {
@@ -21,17 +20,16 @@ const experiences = [
     role: "Student",
     company: "ULB",
     description:
-      "Pursued a university degree in differnt fields (2years psychology).",
-    technologies:[],
-    current: false,
+      "Pursued a University degree in different fields.",
+     current: false,
   },
    {
     period: "2019 — 2020",
     role: "Student ",
     company: "Athenée Royale de Koekelberg",
     description:
-      "Diploma CESS option: modern languages English and German",
-    technologies:[],
+      "High Secondary Education Certificate /CESS option: modern languages English and German",
+    
     current: false,
   },
 ];
@@ -109,20 +107,6 @@ const Experience = () => {
                     <p className="text-sm text-muted-foreground mt-4">
                       {exp.description}
                     </p>
-                    <div
-                      className={`flex flex-wrap gap-2 mt-4 ${
-                        idx % 2 === 0 ? "md:justify-end" : ""
-                      }`}
-                    >
-                      {exp.technologies.map((tech, techIdx) => (
-                        <span
-                          key={techIdx}
-                          className="px-3 py-1 bg-surface text-xs rounded-full text-muted-foreground"
-                        >
-                          {tech}
-                        </span>
-                      ))}
-                    </div>
                   </div>
                 </div>
               </div>
