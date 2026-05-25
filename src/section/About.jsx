@@ -31,7 +31,7 @@ const About = () => {
           
         </div>
         <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-          Helping create a better world,
+          Helping create a better digital place,
           <span className="font-serif italic font-normal text-white">
             {" "}
             each day a new milestone.

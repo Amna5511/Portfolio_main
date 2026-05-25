@@ -147,7 +147,7 @@ const Hero = () => {
           href="#about"
           className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors group"
         >
-          <span className="text-xs uppercase tracking-wider">Scroll to see more</span>
+          <span className="text-xs uppercase tracking-wider">Keep scrolling</span>
           <ChevronDownCircle className="w-6 h-6 animate-bounce" />
         </a>
       </div>

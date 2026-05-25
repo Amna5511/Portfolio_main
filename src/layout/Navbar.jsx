@@ -50,13 +50,7 @@ return () => window.removeEventListener("scroll",handleScroll);
           ))}
           </div>
         </div>
-        {/* button for contact direction */}
-        <div className="hidden md:block">
-          <Button size="sm" onClick={()=> setIsMobileMenuOpen(false)}>
-          Contact Me
-          </Button>
-          </div>
-       {/* button for menu mobiile screen */}
+       {/* button for menu mobile screen */}
        <button 
        className="md:hidden p-2 text-foreground cursor-pointer" 
        onClick={() => setIsMobileMenuOpen((prev) => !prev)}>
@@ -76,9 +70,6 @@ return () => window.removeEventListener("scroll",handleScroll);
             {link.label}
             </a>
           ))}
-          <Button>
-          Contact Me
-          </Button>
         </div>
       </div>
       )}

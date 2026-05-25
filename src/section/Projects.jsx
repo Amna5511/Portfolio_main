@@ -7,7 +7,7 @@ const projects = [
     description: "My personal portfolio built with React, TailwindCSS and Vite. Includes animations, EmailJS contact form and responsive design.",
     image: "/projects/Portfolio.png",
     tags: ["React", "TailwindCSS", "Vite", "EmailJS"],
-    link: "#",
+    link: "https://github.com/Amna5511/Portfolio_main.git",
   },
   {
     title: "WordPress Project",
@@ -31,10 +31,10 @@ const projects = [
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
             Projects that
-            <span className="font-serif italic font-normal text-white"> make an impact.</span>
+            <span className="font-serif italic font-normal text-white"> have purpose .</span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            A selection of my recent work, built with love and attention to detail.
+            A selection of my recent work.
           </p>
         </div>
 
@@ -79,10 +79,6 @@ const projects = [
                   <a href={project.link} className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all">
                     <ArrowUpRight className="w-5 h-5" />
                   </a>
-                  {/* GitHub désactivé */}
-                  <span className="p-3 rounded-full glass opacity-30 cursor-not-allowed">
-                    <GitBranchIcon className="w-5 h-5" />
-                  </span>
                 </div>
               </div>
             </div>
