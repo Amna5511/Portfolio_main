@@ -4,7 +4,6 @@ import Navbar from "./layout/Navbar";
  import About from "./section/About"; 
  import Projects from "./section/Projects"; 
  import Experience from "./section/Experience";
- import Contact from "./section/Contact";
  import Footer from "./layout/Footer";
 
  export default function App() {
@@ -16,7 +15,6 @@ import Navbar from "./layout/Navbar";
     <About /> 
     <Projects /> 
     <Experience /> 
-    <Contact /> 
     <Footer /> 
     </main> 
     </div>)

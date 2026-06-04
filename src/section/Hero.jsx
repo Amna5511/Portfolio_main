@@ -69,7 +69,7 @@ const Hero = () => {
            </div>
            {/* Call to action section */}
            <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-            <a href="#contact">
+            <a href= "https://www.linkedin.com/in/amna-amri-2a4722311" >
             <Button size="lg">
               Contact Me
                <ArrowRight className="w-5 h-5"/>
