@@ -86,7 +86,7 @@ const Hero = () => {
            {/*Socials links*/}
           
            <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
-           <span className="text-sm text-muted-foreground ">Follow Me:</span>
+           <span className="text-sm text-muted-foreground ">Connect with Me:</span>
            {[
             { icon: GitBranchIcon, href: "https://github.com/Amna5511" },
             { icon: Linkedin, href: "https://www.linkedin.com/in/amna-amri-2a4722311" },
