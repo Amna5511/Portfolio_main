@@ -42,7 +42,7 @@ const About = () => {
             My path to code wasn’t linear. I explored languages, arts, and sciences before finding my place in development. Now training as a Full‑Stack JavaScript developer at Interface3, I bring patience, rigor, and creativity to everything I build.
           </p>
           <p>
-           I work with React, Node.js, and Tailwind to build thoughtful interfaces and clean logic. I enjoy creating APIs, organizing data, and blending code with drawing. What drives me is the joy of learning and building tools that serve people with care.
+           I work with React, Node.js, and Tailwind to build thoughtful interfaces and clean logic. I enjoy blending code with drawing. What drives me is the joy of learning and building tools that serve people with care.
 
 
 

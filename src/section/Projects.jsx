@@ -4,11 +4,19 @@ import   Button  from '@/components/Button';
 const projects = [
   {
     title: "Personal Portfolio",
-    description: "My personal portfolio built with React, TailwindCSS and Vite. Includes animations, EmailJS contact form and responsive design.",
+    description: "My personal portfolio.",
     image: "/projects/Portfolio.png",
     tags: ["React", "TailwindCSS", "Vite", "EmailJS"],
     link: "https://github.com/Amna5511/Portfolio_main.git",
+  },
+   {
+    title: "Project Herborie",
+    description: "Final School Project,created with the purpose to have a catalogue of medicinal plants and remedies",
+    image: "/projects/Herborie.png",
+    tags: ["React", "TailwindCSS", "Vite", "Nodejs","MongoDB"],
+    link: "https://github.com/Amna5511/Herborie.git",
   }
+
 ];
  const Projects = () => {
   return (

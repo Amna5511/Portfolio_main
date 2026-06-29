@@ -4,7 +4,7 @@ const experiences = [
     role: "FullStack JS internship ",
     company: "Interface3",
     description:
-      "Web Developer course",
+      "Web Developer course, focused mainly on the Front , working with React as a library , focusing on creating reusable components .",
     current: true,
   },
    {
